@@ -1,29 +1,29 @@
 {
-  "homepage": "https://github.com/askucher/require-ls#readme",
-  "dependencies": {
-    "eval": "^0.1.1",
-    "livescript": "^1.4.0",
-    "path": "^0.12.7"
-  },
-  "uperversion": "0.0",
-  "subversion": 3,
-  "description": "require('file.ls') for nodejs",
-  "main": "index.js",
-  "version": "0.0.3",
   "name": "require-ls",
-  "keywords": [
-    "livescript"
-  ],
-  "author": "Andrey Stehno",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/askucher/require-ls/issues"
+  "version": "0.0.4",
+  "main": "index.js",
+  "description": "require('file.ls') for nodejs",
+  "subversion": 4,
+  "uperversion": "0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/askucher/require-ls.git"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bugs": {
+    "url": "https://github.com/askucher/require-ls/issues"
+  },
+  "license": "ISC",
+  "author": "Andrey Stehno",
+  "keywords": [
+    "livescript"
+  ],
+  "homepage": "https://github.com/askucher/require-ls#readme",
+  "dependencies": {
+    "eval": "^0.1.1",
+    "livescript": "^1.4.0",
+    "path": "^0.12.7"
   }
 }
