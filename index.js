@@ -7,7 +7,7 @@
   fs = require('fs');
   module.exports = function(file){
     var content, code;
-    content = fs.readFileSync(path.resolve(project.cwd(), file), 'utf8');
+    content = fs.readFileSync(path.resolve(process.cwd(), file), 'utf8');
     code = livescript.compile(content);
     return _eval(code);
   };
