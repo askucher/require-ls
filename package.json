@@ -1,0 +1,27 @@
+{
+  "name": "require-ls",
+  "version": "0.0.1",
+  "description": "require('file.ls') for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/askucher/require-ls.git"
+  },
+  "keywords": [
+    "livescript"
+  ],
+  "author": "Andrey Stehno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/askucher/require-ls/issues"
+  },
+  "homepage": "https://github.com/askucher/require-ls#readme",
+  "dependencies": {
+    "eval": "^0.1.1",
+    "livescript": "^1.4.0",
+    "path": "^0.12.7"
+  }
+}
